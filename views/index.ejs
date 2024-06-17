@@ -1,37 +1,82 @@
-    <h1 class="text-center">Selamat Datang di Gundar Chatbot!</h1>
-    
-    <div id="chatbot-container" class="d-flex justify-content-center" style="height: 800px;">
-        <iframe
-            style="border: none;"
-            srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
-            <script>
-              window.botpressWebChat.init({
-                  'composerPlaceholder': 'Chat with bot',
-                  'botConversationDescription': 'This chatbot was built surprisingly fast with Botpress',
-                  'botName': 'Name',
-                  'botId': 'f879e68d-b201-4d72-a46f-8bc9c34e8066',
-                  'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
-                  'messagingUrl': 'https://messaging.botpress.cloud',
-                  'clientId': 'f879e68d-b201-4d72-a46f-8bc9c34e8066',
-                  'enableConversationDeletion': true,
-                  'showPoweredBy': true,
-                  'className': 'webchatIframe',
-                  'containerWidth': '100%25',
-                  'layoutWidth': '100%25',
-                  'hideWidget': true,
-                  'showCloseButton': false,
-                  'disableAnimations': true,
-                  'closeOnEscape': false,
-                  'showConversationsButton': false,
-                  'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/8f5edee6-1136-42da-ae6f-e84b3d62d460/v13265/style.css'
-                  
-              });
-            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
-            </script></body>"
-            width="50%"
-            height="100%"
-          ></iframe>
+<div id="welcome-container" class="container-fluid">
+    <div id="welcome-message" class="d-flex flex-column justify-content-center hidden">
+      <div id="welcome-text">
+        <h1>Selamat Datang</h1>
+        <h1>di GundarAI</h1>
+        <p>Dapatkan informasi mengenai Universitas Gunadarama secara Interaktif</p>
+      </div>
+      <div id="chatbot-button" class="d-flex justify-content-center">
+        <a href="#" class="btn btn-light">Chat Sekarang</a>
+      </div>
+      <div id="scroll-info">
+        <p>Scroll ke bawah untuk informasi lebih lanjut!</p>
+      </div>
     </div>
+</div>
 
-    
+<div class="feature-wrapper vh-100 d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="row gx-1">
+      <div class="img-feature col-md-4 d-flex align-items-center justify-content-center">
+        <section class="hidden">
+          <img class="round-img" src="/images/laptop-img.png" alt="Laptop" width="200">
+        </section>
+      </div>
+      <div class="feature-text col-md-8 my-auto">
+        <section class="hidden">
+          <h2>Mudah Untuk Digunakan</h2>
+          <p>Ketikkan saja pertanyaan Anda, dan chatbot kami akan memberikan jawaban yang jelas dan ringkas. Chatbot ini didesain secara intuitif dan mudah digunakan.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature-wrapper vh-100 d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="row gx-1">
+      <div class="img-feature col-md-4 d-flex align-items-center justify-content-center">
+        <section class="hidden">
+          <img class="round-img" src="/images/students-img.png" alt="students" width="200">
+        </section>
+      </div>
+      <div class="feature-text col-md-8 my-auto">
+        <section class="hidden">
+          <h2>Didesain Untuk Semua Orang</h2>
+          <p>Baik Anda baru pertama kali menjelajahi Universitas Gunadarma, sedang mendaftar, atau lulusan Gunadarma, chatbot menyediakan bantuan untuk semua pengguna.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature-wrapper vh-100 d-flex align-items-center justify-content-center">
+  <div class="container">
+    <div class="row gx-1">
+      <div class="img-feature col-md-4 d-flex align-items-center justify-content-center">
+        <section class="hidden">
+          <img class="round-img" src="/images/service-img.png" alt="Service" width="200">
+        </section>
+      </div>
+      <div class="feature-text col-md-8 my-auto">
+        <section class="hidden">
+          <h2>Layanan Mahasiswa</h2>
+          <p>Akses informasi mengenai kalendar akademik, perpindahan kelas, ketentuan skripsi, dan layanan batuan mahasiswa lainnya.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="feature-wrapper vh-100 d-flex flex-column align-items-center justify-content-center hidden">
+  <h2>Menu</h2>
+  <div class="nav-menu d-grid gap-2 col-6 row-1 mx-auto">
+    <a href="#" class="btn btn-dark border-light">GundarAI</a>
+    <a href="#" class="btn btn-dark border-light">UG Links</a>
+    <a href="#" class="btn btn-dark border-light">About</a>
+  </div>
+</div>
+
+<div class="footer-disclaimer container-fluid text-end fs-6">
+  <p> Disclaimer: <br> Website ini dibuat untuk keperluan Penulisan Ilmiah Gunadarma. Website ini dan pembuatnya tidak memiliki afiliasi dengan Universitas Gunadarma dan pembuatnya adalah hanya mahasiswanya.</p>
+</div>

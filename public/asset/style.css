@@ -1,0 +1,124 @@
+/* * {
+    border: 2px solid red;
+} */
+
+body {
+    background-color: rgb(28, 28, 28) !important;
+    color: white !important;
+}
+
+#welcome-container {
+    background-image: url(../images/welcome-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#welcome-text, #chatbot-button,#scroll-info{
+    padding-left: 7vw;
+}
+
+
+
+#scroll-info {
+    margin-top: 20px;
+    opacity: 0.35;
+}
+
+#welcome-container, .feature-wrapper, #nav-menu {
+    min-height: 525px;
+    max-height: 700px;
+}
+
+.round-img {
+    border-radius: 100%;
+    border: 10px solid white;
+}
+
+nav-menu {
+    width: 400px !important;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-menu {
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.footer-disclaimer {
+    min-height: 200px;
+    position: relative;
+}
+
+.footer-disclaimer p {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-15%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+::-webkit-scrollbar-track {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #5c5c5c;
+    border-radius: 10px;
+ }
+
+@media (max-width: 768px) {
+    #welcome-message {
+        margin: 0 auto;
+    }
+    
+    #welcome-text, #scroll-info{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    #chatbot-button {
+        padding-left: 0;
+    }
+
+    .feature-wrapper {
+        text-align: center;
+    }
+
+    .round-img {
+        margin-bottom: 15px;
+    }
+}
+
