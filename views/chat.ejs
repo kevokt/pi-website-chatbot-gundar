@@ -1,0 +1,49 @@
+<%- include('navbar') %>
+
+<div class="page-title container-fluid text-center d-flex flex-column align-items-center justify-content-center mb-0 hidden">
+    <h1>GundarAI Chatbot</h1>
+    <p class="fw-light opacity-50">Mohon tunggu sesaat untuk memuat chatbot</p>
+</div>
+
+<div class="container-fluid chatbot-container d-flex flex-column align-items-center justify-content-center">
+    <div class="container-md vh-100">
+        <iframe
+        style="border: none;"
+        srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v0/inject.js'></script>
+        <script>
+            window.botpressWebChat.init({
+                'composerPlaceholder': 'Chat with GundarAI',
+                'botConversationDescription': 'Informasi Gunadarma Secara Interaktif',
+                'botName': 'GundarAI',
+                'botId': 'f879e68d-b201-4d72-a46f-8bc9c34e8066',
+                'hostUrl': 'https://cdn.botpress.cloud/webchat/v0',
+                'messagingUrl': 'https://messaging.botpress.cloud',
+                'clientId': 'f879e68d-b201-4d72-a46f-8bc9c34e8066',
+                'enableConversationDeletion': true,
+                'showPoweredBy': true,
+                'className': 'webchatIframe',
+                'containerWidth': '100%25',
+                'layoutWidth': '100%25',
+                'hideWidget': true,
+                'showCloseButton': false,
+                'disableAnimations': false,
+                'closeOnEscape': false,
+                'showConversationsButton': false,
+                'enableTranscriptDownload': true,
+                'useSessionStorage': true,
+                'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/979182fc-a292-4413-8cef-b076b70a9fbc/v92119/style.css'  
+            });
+            window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
+            </script></body>"
+            width="100%"
+            height="100%">
+        </iframe>
+    </div>
+</div>
+
+<div class="footer-disclaimer container-fluid text-end fs-6">
+    <p>Peringatan: <br> Ada kemungkinan apa yang dikatakan oleh chatbot tidak akurat. Jangan terima apa yang dikatakan oleh chatbot sebagai fakta.</p>
+</div>
+
+<!-- <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/f879e68d-b201-4d72-a46f-8bc9c34e8066/webchat/config.js" defer></script> -->

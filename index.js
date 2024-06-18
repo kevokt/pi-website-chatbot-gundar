@@ -12,10 +12,17 @@ app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.render('index', {
-        title: 'Chatbot Gunadarma',
+        title: 'GundarAI',
         layout: 'layouts/main-layout'
     });
 });
+
+app.get('/chat', (req, res) => {
+    res.render('chat', {
+        title: 'GundarAI Chatbot',
+        layout: 'layouts/main-layout'
+    });
+})
 
 app.listen(port, () => {
     console.log(`Gundar Chatbot | Listening at http://localhost:${port}`);
