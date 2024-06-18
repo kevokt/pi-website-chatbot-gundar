@@ -22,7 +22,29 @@ app.get('/chat', (req, res) => {
         title: 'GundarAI Chatbot',
         layout: 'layouts/main-layout'
     });
-})
+});
+
+app.get('/links', (req, res) => {
+    res.render('links', {
+        title: 'UG Links',
+        layout: 'layouts/main-layout'     
+    });
+});
+
+app.get('/about', (req, res) => {
+    res.render('About', {
+        title: 'About GundarAI',
+        layout: 'layouts/main-layout'     
+    });
+});
+
+app.use((req, res) => {
+    res.status(404);
+    res.render('error', {
+        title: 'Page not found',
+        layout: 'layouts/main-layout'     
+    });
+  });
 
 app.listen(port, () => {
     console.log(`Gundar Chatbot | Listening at http://localhost:${port}`);
