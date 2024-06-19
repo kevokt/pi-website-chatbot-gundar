@@ -2,7 +2,7 @@ const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Setup EJS View Engine
 app.set("view engine", "ejs");
@@ -46,6 +46,6 @@ app.use((req, res) => {
     });
   });
 
-app.listen(port, () => {
-    console.log(`Gundar Chatbot | Listening at http://localhost:${port}`);
+app.listen(PORT, () => {
+    console.log(`Gundar Chatbot | Listening at http://localhost:${PORT}`);
 });
