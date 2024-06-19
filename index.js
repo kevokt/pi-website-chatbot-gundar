@@ -31,8 +31,8 @@ app.get('/links', (req, res) => {
     });
 });
 
-app.get('/about', (req, res) => {
-    res.render('About', {
+app.get('/tentang', (req, res) => {
+    res.render('tentang', {
         title: 'About GundarAI',
         layout: 'layouts/main-layout'     
     });

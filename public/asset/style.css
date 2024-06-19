@@ -30,7 +30,7 @@ body {
 
 #welcome-container, .feature-wrapper, #nav-menu {
     min-height: 525px;
-    max-height: 700px;
+    max-height: 900px;
 }
 
 .round-img {
