@@ -162,3 +162,9 @@ a {
         min-height: 120px;
     }
 }
+
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
