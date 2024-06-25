@@ -1,8 +1,12 @@
 ## GundarAI <p>Informasi Universitas Gunadarma secara interaktif</p>
 
 ### View the site on the link below!
-<a href="https://website-chatbot-gundar.fly.dev/
-" target="_blank">website-chatbot-gundar.fly.dev</a>
+~~website-chatbot-gundar.fly.dev~~ Unhosted
+
+How to run the web app: 
+1. Git clone / download this respitory
+2. On CLI / terminal (make sure node & NPM is installed) type "npm install" 
+3. On CLI / terminal type "node index.js"
 
 ### About GundarAI
 <p>GundarAI adalah website chatbot berbasis pengetahuan (knowledge base) yang berisi informasi mengenai Universitas Gunadarma. User dapat memberikan sebuah pertanyaan kepada chatbot yang akan diproses pertanyaan tersebut dan akan memberikan jawaban berdasarkan apa yang ada di dalam knowledge base.</p>
