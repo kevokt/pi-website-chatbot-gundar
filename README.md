@@ -4,7 +4,7 @@
 ~~website-chatbot-gundar.fly.dev~~ Unhosted
 
 How to run the web app: 
-1. Git clone / download this respitory
+1. Git clone / download this repository
 2. On CLI / terminal (make sure node & NPM is installed) type "npm install" 
 3. On CLI / terminal type "node index.js"
 
