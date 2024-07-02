@@ -1,19 +1,31 @@
 ## GundarAI <p>Informasi Universitas Gunadarma secara interaktif</p>
 
 ### View the site on the link below!
-~~website-chatbot-gundar.fly.dev~~ Unhosted
+<p>~~website-chatbot-gundar.fly.dev~~ <br>Unhosted</p>
+<p><a href="https://gundarai.netlify.app/">gundarai.netlify.app</a>
+<br>The Netlify version uses the <a href="https://github.com/kevokt/gundarai-static">gundarai-static</a> repository which is the html version and doesn't use node.js since I gave up trying to configure the node app on netlify. The website is the same with this repository and with the old fly.io link.</p>
 
-How to run the web app: 
-1. Git clone / download this repository
-2. On CLI / terminal (make sure node & NPM is installed) type "npm install" 
-3. On CLI / terminal type "node index.js"
 
-### About GundarAI
+### About GundarAI (EN)
+<p>GundarAI is a knowledge-based chatbot website that contains information about Gunadarma University. Users can ask questions to the chatbot which will process the questions and provide answers based on what is in the knowledge base.</p>
+    
+<p>This website and its creator have no affiliation with Gunadarma University. The purpose of making this website is as a scientific writing project for Gunadarma University. The creator of this chatbot and website is Kevin Oktavian who is a Gunadarma student.</p>
+        
+<p>The development of the chatbot in this website uses Botpress which is an open-source platform for building chatbots. This website uses Node.js with Express.js framework as a web server and Bootstrap as UI Library and CSS framework.</p>
+
+### About GundarAI (ID)
 <p>GundarAI adalah website chatbot berbasis pengetahuan (knowledge base) yang berisi informasi mengenai Universitas Gunadarma. User dapat memberikan sebuah pertanyaan kepada chatbot yang akan diproses pertanyaan tersebut dan akan memberikan jawaban berdasarkan apa yang ada di dalam knowledge base.</p>
     
 <p>Website ini dan pembuatanya tidak memiliki affiliasi dengan pihak Universitas Gunadarma. Tujuan pembuatan website ini adalah sebagai project penulisan ilmiah Universitas Gunadarma. Pembuat chatbot dan website ini adalah Kevin Oktavian yang merupakan mahasiswa Gunadarma. </p>
         
 <p>Pembuatan chatbot dalam webiste ini menggunakan Botpress yang merupakan platform open-source untuk membangun chatbot. Pembuatan website ini menggunakan Node.js dengan Express.js framework sebagai web server dan Bootstrap sebagai UI Library dan CSS framework.</p>
+
+
+### Installation
+How to install and run the web app: 
+1. Git clone / download this repository
+2. On CLI / terminal (make sure node & NPM is installed) type "npm install" 
+3. On CLI / terminal type "node index.js"
 
 <p>Images Source:</p> 
 <ul>

@@ -7,9 +7,9 @@ const PORT = process.env.PORT || 3000;
 // Setup EJS View Engine
 app.set("view engine", "ejs");
 app.use(expressLayouts); 
-app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
+// Routes
 app.get('/', (req, res) => {
     res.render('index', {
         title: 'GundarAI',
@@ -31,13 +31,14 @@ app.get('/links', (req, res) => {
     });
 });
 
-app.get('/tentang', (req, res) => {
-    res.render('tentang', {
+app.get('/about', (req, res) => {
+    res.render('about', {
         title: 'About GundarAI',
         layout: 'layouts/main-layout'     
     });
 });
 
+// Error Handling jika url tidak ditemukan
 app.use((req, res) => {
     res.status(404);
     res.render('error', {
@@ -46,6 +47,7 @@ app.use((req, res) => {
     });
   });
 
+// Menjalankan server
 app.listen(PORT, () => {
     console.log(`Gundar Chatbot | Listening at http://localhost:${PORT}`);
 });
