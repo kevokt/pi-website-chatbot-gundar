@@ -1,7 +1,7 @@
 ## GundarAI <p>Informasi Universitas Gunadarma secara interaktif</p>
 
 ### View the site on the link below!
-<p>~~website-chatbot-gundar.fly.dev~~ <br>Unhosted</p>
+~~website-chatbot-gundar.fly.dev~~ <br> Unhosted
 <p><a href="https://gundarai.netlify.app/">gundarai.netlify.app</a>
 <br>The Netlify version uses the <a href="https://github.com/kevokt/gundarai-static">gundarai-static</a> repository which is the html version and doesn't use node.js since I gave up trying to configure the node app on netlify. The website is the same with this repository and with the old fly.io link.</p>
 
