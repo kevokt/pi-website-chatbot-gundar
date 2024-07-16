@@ -2,8 +2,7 @@
 
 ### View the site on the link below!
 ~~website-chatbot-gundar.fly.dev~~ <br> Unhosted
-<p><a href="https://gundarai.netlify.app/">gundarai.netlify.app</a>
-<br>The Netlify version uses the <a href="https://github.com/kevokt/gundarai-static">gundarai-static</a> repository which is the html version and doesn't use Node.js since I was not able to configure the node app on Netlify and Vercel. The website is still the same with this repository and with the old fly.io link.</p>
+<p><a href="https://gundarai.netlify.app/">gundarai.netlify.app</a></p>
 
 
 ### About GundarAI (EN)
